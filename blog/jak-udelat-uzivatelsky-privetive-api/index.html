@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uživatelem jsou i AI agenti — Honza Soukup</title>
+<meta name="description" content="Weby a API dnes nečtou jen lidé a vývojáři, ale i AI agenti. Jak je navrhnout, aby jim stroje rozuměly: dokumentace, konzistentní názvy, srozumitelné chyby, llms.txt, markdown a test s agentem.">
+<meta name="author" content="Honza Soukup">
+<link rel="canonical" href="https://www.honzasoukup.cz/blog/jak-udelat-uzivatelsky-privetive-api">
+<link rel="alternate" type="text/markdown" href="/blog/jak-udelat-uzivatelsky-privetive-api/index.md">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Uživatelem jsou i AI agenti">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://www.honzasoukup.cz/blog/jak-udelat-uzivatelsky-privetive-api#article",
+  "headline": "Uživatelem jsou i AI agenti",
+  "inLanguage": "cs",
+  "datePublished": "2024-06-01",
+  "dateModified": "2026-10-04",
+  "author": { "@type": "Person", "@id": "https://www.honzasoukup.cz/#person", "name": "Honza Soukup", "url": "https://www.honzasoukup.cz/" },
+  "about": ["UX v době AI", "AI agenti", "API design", "llms.txt"]
+}
+</script>
+</head>
+<body>
+<main>
+  <a class="back" href="/">← Honza Soukup</a>
+  <article>
+    <h1>Uživatelem jsou i&nbsp;AI agenti</h1>
+    <p class="meta">UX v době AI · 2024, aktualizováno 2026</p>
+
+    <p class="lede">V&nbsp;roce 2024 jsem psal, že programátoři jsou taky lidi a&nbsp;API potřebuje dobré UX. Dnes je ten uživatel ještě jiný: váš web a&nbsp;API čtou AI agenti. Hledají za lidi, porovnávají, objednávají. Kdo jim není srozumitelný, v&nbsp;odpovědi nebude.</p>
+
+    <p>Dobrá zpráva: co fungovalo pro vývojáře, funguje i&nbsp;pro agenty. Jen to musí být dotažené.</p>
+
+    <h3>Dokumentace je rozhraní</h3>
+    <p>Dobré API se špatnou dokumentací je špatné API. Pro agenta to platí dvojnásob, protože se nemůže zeptat kolegy. Potřebuje krátký úvod, jak věci fungují, příklady a&nbsp;úplnou referenci endpointů, parametrů a&nbsp;chyb.</p>
+
+    <h3>Konzistentní názvy</h3>
+    <p>Stejná věc má všude stejné jméno. Člověk si nekonzistenci domyslí, agent ji pochopí jako dvě různé věci.</p>
+
+    <h3>Chyby, podle kterých se dá jednat</h3>
+    <p>Chybová hláška má říct, co se pokazilo a&nbsp;jak to opravit. Standardní HTTP kódy, jasný text. Agent podle ní zkusí krok znovu a&nbsp;správně, místo aby to vzdal.</p>
+
+    <h3>Obsah ve formátu pro stroje</h3>
+    <ul>
+      <li><b>llms.txt</b> v&nbsp;kořeni webu: krátké shrnutí, kdo jste a&nbsp;kde co najít.</li>
+      <li><b>Markdown verze stránek:</b> čistý text bez navigace a&nbsp;skriptů.</li>
+      <li><b>Strukturovaná data</b> (schema.org): kdo, co, kdy, pro koho.</li>
+      <li><b>robots.txt</b>, který AI crawlery pouští, a&nbsp;ochrana proti botům, která je omylem neblokuje.</li>
+    </ul>
+    <p>Tenhle web to má všechno. Zkuste <a href="/llms.txt">llms.txt</a>.</p>
+
+    <h3>Rychlost</h3>
+    <p>Agent pracuje v&nbsp;krocích a&nbsp;každý pomalý krok se násobí. Rychlost byla vždycky UX, u&nbsp;agentů rozhoduje o&nbsp;tom, jestli úkol vůbec dokončí.</p>
+
+    <h3>Testujte s&nbsp;agentem</h3>
+    <p>Dřív jsem doporučoval dát API pěti vývojářům a&nbsp;sledovat, kde váhají. Dnes k&nbsp;tomu přidejte agenta: zadejte ChatGPT nebo Claude pět úkolů nad vaším webem či API a&nbsp;čtěte, kde se zasekne, co si vymyslí a&nbsp;kde to vzdá. Je to nejlevnější uživatelské testování, jaké existuje.</p>
+  </article>
+
+  <footer class="colophon">
+    <a href="/">Honza Soukup</a> · UX v době AI · <a href="/blog/jak-udelat-uzivatelsky-privetive-api/index.md">markdown</a>
+  </footer>
+</main>
+</body>
+</html>

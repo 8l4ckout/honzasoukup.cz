@@ -1,0 +1,25 @@
+# Honza Soukup
+
+> UX v době AI (UX in the age of AI). Honza Soukup se zabývá tím, kde umělá inteligence lidem opravdu pomůže a jak ji navrhnout tak, aby jí lidé rozuměli a věřili — v chatu, hlasem, v brýlích i v nositelných zařízeních. UX od roku 2016, 5 let Senior UX designer ve farmaceutické firmě MSD (Merck). Spolupracoval mimo jiné se SlidesLive, Aukro, StartupJobs, Mamio a Maplo. Dnes AI a agenty uplatňuje hlavně na vlastních projektech v nemovitostech.
+
+Klíčová fakta / Key facts:
+
+- Obor / Field: UX v době AI — návrh AI produktů, důvěra v AI, AI agenti jako uživatelé, prototypování
+- Postoj / Stance: na médiu nezáleží (obrazovka, chat, hlas, brýle, wearable), záleží na zážitku a důvěře
+- Jazyky / Languages: čeština, English
+- Kontakt / Contact: jsem@honzasoukup.cz
+
+## Profil / Profile
+
+- [Profil česky (Markdown)](https://www.honzasoukup.cz/index.md): úvod, teze, texty, reference, kontakt
+- [Profile in English (Markdown)](https://www.honzasoukup.cz/en/index.md): same content in English
+
+## Texty / Writing (Czech)
+
+- [Jak přidat AI do produktu, aby to lidem opravdu pomohlo](https://www.honzasoukup.cz/blog/jak-do-aplikace-pridat-umelou-inteligenci-ai-aby-to-zlepsilo-ux/index.md): pět kroků — zmapovat úkoly, vstupy, výstupy, rozhodnout co nedělat, prototyp a test
+- [Uživatelem jsou i AI agenti](https://www.honzasoukup.cz/blog/jak-udelat-uzivatelsky-privetive-api/index.md): jak navrhnout web a API pro AI agenty (dokumentace, názvy, chyby, llms.txt, test s agentem)
+- [Recorder pro SlidesLive](https://www.honzasoukup.cz/projekt/recorder/index.md): případová studie — MVP za 14 dní, 12 891 řečníků za 5 měsíců, přes 30 000 ročně, medián hodnocení 4/5
+
+## Profily / Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/honza-soukup/)

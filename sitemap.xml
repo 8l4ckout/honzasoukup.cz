@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.honzasoukup.cz/</loc><lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.honzasoukup.cz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.honzasoukup.cz/en/"/>
+  </url>
+  <url>
+    <loc>https://www.honzasoukup.cz/en/</loc><lastmod>2026-10-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.honzasoukup.cz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.honzasoukup.cz/en/"/>
+  </url>
+  <url><loc>https://www.honzasoukup.cz/blog/jak-do-aplikace-pridat-umelou-inteligenci-ai-aby-to-zlepsilo-ux</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://www.honzasoukup.cz/blog/jak-udelat-uzivatelsky-privetive-api</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://www.honzasoukup.cz/projekt/recorder</loc><lastmod>2026-10-04</lastmod></url>
+  <url><loc>https://www.honzasoukup.cz/llms.txt</loc><lastmod>2026-10-04</lastmod></url>
+</urlset>
